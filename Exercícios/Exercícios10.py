@@ -1,0 +1,1 @@
+#Crie um programa que leia quantos dinheiros uma pessoa tem na carteira e mostre quatos Dólares ele pode comprar | Considere US$1,00 = R$4,92
