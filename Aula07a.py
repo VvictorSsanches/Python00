@@ -8,7 +8,7 @@ d = n1 / n2
 di = n1 // n2
 e = n1 ** n2
 
-print('A soma vale: {}, \nA multiplicação vale: {}, \nE a subtração vale: {}. '.format(s, m, d), end='sdad 2 ')
+print('A soma vale: {}, \nA multiplicação vale: {}, \nE a subtração vale: {}. '.format(s, m, d), end='')
 print('A divisão inteira vale: {} E a potência {}.'.format(di, e))
 
 '''
