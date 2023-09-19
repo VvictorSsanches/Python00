@@ -4,8 +4,9 @@
 L = float(input('Qual a largura da parede para pintar?: '))
 A = float(input('Qual a altura da parede para pintar?: '))
 LA = L*A
-T = 2**2
-TO = LA*T
-print('Será necessário um total de {} litros de tinta para pintar a prede. '.format(TO))
+T = LA / 2
+
+print('Sua parede tem a dimensão de {} x {} e a sua área é de {}m²'.format(L,A,LA))
+print('Será necessário um total de {}l de tinta para pintar a prede. '.format(T))
 
 
