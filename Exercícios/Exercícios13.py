@@ -2,4 +2,4 @@
 salário = float(input('qual o salário atual?: '))
 aumento = salário + (salário * 15 / 100)
 valor_aumento = salário * 15 / 100
-print('Valor do salário atual é R$:{} com o seguinte aumento de R$:{}, o salário atual é de R$:{}'.format(salário, valor_aumento, aumento))
+print('Valor do salário atual é R$:{:.2f} com o seguinte aumento de R$:{:.2f}, o salário atual é de R$:{:.2f}'.format(salário, valor_aumento, aumento))
