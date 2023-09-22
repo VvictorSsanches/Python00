@@ -1,0 +1,25 @@
+#Trabalhar com modolos!
+
+#Importar alguma coisa utilizamos o 'IMPORT'
+#IMPORT COMIDA ( VAI IMPORTAR TUDO )
+#FROM COMIDA IMPORT MACARRÃO ( VAI IMPORTAR APENAS AS FUNCIONALIDADES QUE EU DESEJO 
+'''
+import math
+ from math import soma
+
+math = valores
+ceil = arredonda para cima 
+floor = arredonda para baixo
+trunc = eliminar da virgula para frente 
+pow = funciona como os **
+sqrt = calcula raiz quadrada 
+factorial = calcaula numeros fatorias 
+
+import math = importa tudo
+se precisar importal algo utilizaremos o:
+(from math Import sqrt)
+
+importar dois:
+(from math import sqrt, pow)
+
+'''
