@@ -12,7 +12,7 @@ lista = (a1,a2,a3,a4,a5,a6)
 alunos = choice(lista)
 print('O nome do aluno para apagar o quedro é: {}'.format(alunos.upper()))
 
-ou 
+#ou 
 
 import random
 
