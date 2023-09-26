@@ -17,7 +17,7 @@ print('O nome do aluno para apagar o quedro é: {}'.format(alunos.upper()))
 import random
 
 alunos = []
-while len(alunos) <5:
+while len[alunos] <5:
     nome_alunos = input ('Nome dos alunos: ')
     alunos.append(nome_alunos)
 print('O nome do aluno sorteado foi: {}'.format(random.choice(alunos).upper()))
