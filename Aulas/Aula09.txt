@@ -1,0 +1,73 @@
+Fatiamento
+
+"Curso em Video Python"
+
+Frase [9:21]
+Vai do 9 ao 20 pois o ultimo número ele não inclui
+
+frase [9:21:2]
+vai pular de dois em dois 
+
+frase [:5]
+começa do caractere 0 ao 4
+
+frase [15:]
+começa do 15 até o final 
+
+frase [9::3]
+começa do 9 até o final pulando de tres em tres 
+
+
+Análise
+len = comprimento 
+
+len (frase)
+vai contar os caracteres na frase
+
+frase.count('o')
+para mostrar quantas vezes tem a letra o 
+
+frase.count('o',0,13)
+vai buscar quantos 'o' tem na frase do 0 até a 13 letra 
+
+frase.find('deo')
+ele via inficar ainde começa a frase 
+
+
+frase.find('androide')
+ele ira retornar o valor -1 pois não tem essa palavra
+
+'Curso' in frase
+vai infomrar se é verdadeiro ou falso se tem a frase
+
+frase.raplace('Python','Androide')
+
+ele subistitui o python pelo androide
+
+frase.upper() 
+deixar em caixa alta 
+
+frase.lower()
+deixa tudo em minusculo
+
+frase.capitalize()
+vai pegar a string inteira e deixar em minusculo só a primera letra irá ficar maiuscula 
+
+frase.title()
+vai transformar todas as primeiras letras em espaço com letra maiuscula 
+
+frase.strip()
+vai remover os espaços em branco no inicio e no final da string
+
+frase.rstrip()
+só vai remover os ultimos espaço da string
+
+frase.lstrip()
+remove o primeiro espaçoe em branco da string
+
+frase.split()
+vai realizar uma divisão aonde tiver epaços na string vai virar uma lista
+
+'-'.join(frase)
+vai modificar a string como: (Curso-em-Video)
+
