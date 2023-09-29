@@ -1,0 +1,33 @@
+CONDIÇÕES
+
+ex carro
+
+carro.siga()
+carro.esquerda()
+carro.siga()
+carro.direita()
+carro.siga()
+carro.direita()
+carro.siga()
+carro.esquerda()
+carro.siga()
+
+se carro.esquerdo()
+bloco _V_
+
+senão carro.direita()
+bloco _F_
+
+## CONDIÇÃO ##
+if carro.esquerda()
+bloco True
+else 
+bloco False
+
+tempo = int(input('Quantos anos tem seu carro?'))
+
+if tempo<= 3:
+  print('carro novo')
+else
+  print('carro velho')
+print('--fim--')

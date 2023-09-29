@@ -33,7 +33,6 @@ vai buscar quantos 'o' tem na frase do 0 até a 13 letra
 frase.find('deo')
 ele via inficar ainde começa a frase 
 
-
 frase.find('androide')
 ele ira retornar o valor -1 pois não tem essa palavra
 
