@@ -1,0 +1,22 @@
+Cores no terminal dentro do python
+       ANSI
+  ascape sequence
+     \033[0;33;44m
+1° Style = 0
+2° Text = 33
+3° Back = 44
+
+Style                      Text                Back
+0 None - nada              30 branco           40 branco
+1 Blod - negrito           31 vermelho         41 vermelho
+4 Underline - sublinhado   32 verde            42 verde
+7 Negative - inverter       33 amarelo         43 amarelo
+                           34 azul             44 azul
+                           35 magenta          45 magenta
+                           36 ciano            46 ciano
+                           37 cinza            47 cinza
+
+
+
+
+
