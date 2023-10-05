@@ -1,4 +1,3 @@
-from Cores import  
 print('====DESAFIO 01====')
 
 nome = input("escreva seu nome?: ")
