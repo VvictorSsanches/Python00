@@ -4,6 +4,13 @@ final, de acordo com a média atingida: - Média abaixo de 5.0: REPROVADO - Méd
 RECUPERAÇÃO - Média 7.0 ou superior: APROVADO
 '''
 
-n1 = int(input('Informe a primeira nota: '))
-n2 = int(input('Informe a segunda nota:'))
-
+n1 = float(input('Informe a primeira nota: '))
+n2 = float(input('Informe a segunda nota:'))
+n = (n1 + n2) / 2
+print('A media entre {:.2f} e {:.2f} é {:.2f}.'.format(n1, n2, n))
+if n >= 7.0:
+    print('Aprovado')
+elif n >= 5.0:
+    print('Recuperção')
+else:
+    print('Reprovado')
