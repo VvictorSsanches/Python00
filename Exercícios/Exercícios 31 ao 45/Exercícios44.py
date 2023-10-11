@@ -2,13 +2,20 @@
 e condição de pagamento: - à vista dinheiro/cheque: 10% de desconto - à vista no cartão: 5% de
 desconto - em até 2x no cartão: preço formal - 3x ou mais no cartão: 20% de juros
 '''
-'''
-QUAL METODO DE PAGAMENTO 
-DINHIRO/CHQUE = 10% DESCONTO 
-CARTÃO A VISTA 5% DESCONTO 
-EM ATÉ 2X PREÇO NORMLA 
-MAIS Q 3X 20% JUROS
-'''
 valor = float(input('Valor do produto: '))
-pag = [1, 2, 3, 4]
-print('[1] Dinheiro, [2]')
+
+escolha = int(input('[1] Dinheiro/cheque 10% de desconto'
+                    '\n[2] À Vista no cartão 5% de desconto'
+                    '\n[3] Até 2x no cartão'
+                    '\n[4] À cima de 3x no cartão 20% de juros'
+                    '\nInforme a opção: '))
+
+if escolha == 1:
+    print('O descomnto com 10% é de {:.2f}R$ o valor irá ser de {:.2f}R$.'.format(valor *0.10,valor*0.90))
+elif escolha == 2:
+    print('O desconto com 5% é de {:.2f}R$ o valor irá ser de {:.2f}R$.'.format(valor*0.05,valor*0.95))
+elif escolha ==3:
+    print('O valor até 2x será p mesmo preço de {:.2f}R$.'.format(valor))
+else:
+    print('O valor de 3x será de {:.2f}R$ vai para {:.2f}R$.'.format(valor,valor+(valor*0.20)))
+
