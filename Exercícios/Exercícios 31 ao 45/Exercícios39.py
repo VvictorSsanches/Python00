@@ -9,7 +9,7 @@ from datetime import date
 print('Vamos averiguar sua idade para ver quanto tempo falata para se alistar')
 idade = int(input('informe o sue ano de nascimento: '))
 hoje = date.today().year
-if hoje - idade ==18:
+if hoje - idade == 18:
     print('O ano de {} é o ano exato que você irá se alistar!'.format(date.today().year))
 elif hoje - idade > 18:
     print('O momento do seu alistamento já passou! Ele ocorreu em {}. '.format(idade + 18))

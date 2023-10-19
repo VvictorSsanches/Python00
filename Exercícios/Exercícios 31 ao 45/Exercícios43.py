@@ -8,6 +8,7 @@ de 18,5: Abaixo do Peso - Entre 18,5 e 25: Peso Ideal - 25 até 30: Sobrepeso - 
 peso = float(input('Informe o seu peso: '))
 altura = float(input('Informe a sua altura: '))
 imc = peso / (altura**2)
+print('Seu IMC é de {:.2f}'.format(imc))
 if  imc == 18.5: 
     print('Seu IMC é {:.2f} você está abiaxo do peso'.format(imc))
 elif imc < 24.9:
