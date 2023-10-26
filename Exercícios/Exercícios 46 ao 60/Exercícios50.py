@@ -5,7 +5,7 @@ Se o valor digitado for impar, desconsidere-o
 
 s = 0
 a = int(input('informe o valor: '))
-for num in range (a):
+for num in range (1, a + 1):
     if num % 2== 0:
         s += num
 print(s)     
