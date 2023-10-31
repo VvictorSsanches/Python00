@@ -14,6 +14,10 @@ NomeHomensMaisVelhos = ''
 for cont in range(1,4):
     nome = str(input('digite seu nome: '))
     sexo = str(input('Masculino ou Feminino? [M/F]: ')).upper()
+    while sexo :
+        if sexo != 'M' and sexo != 'F':
+            print('Tente novemente')
+            sexo = str(input('Masculino ou Feminino? [M/F]: ')).upper()
     idade = int(input('Digite sua idade: '))
     print('-'*20)
 
