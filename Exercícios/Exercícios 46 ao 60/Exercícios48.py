@@ -16,3 +16,11 @@ for num in range (1,501):
         if num % 3 != 0:
             s += num        
 print('A soma dos múltiplos é: {}'.format(s))
+
+s = 0
+con = 0
+for c in range (1, 501, 2):
+    if c % 3 == 0:
+        s = s + c
+    con = con +1
+print('A soma de todos os {} valores solicitados é {}'.format(con, s ))

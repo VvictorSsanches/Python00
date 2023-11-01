@@ -19,5 +19,5 @@ for c in range(1,6):
         if peso < menor:
             menor = peso
 
-print('Maior peso {}.'.format(maior))
-print('Menor peso {}.'.format(menor))
+print('Maior peso {}Kg.'.format(maior))
+print('Menor peso {}Kg.'.format(menor))

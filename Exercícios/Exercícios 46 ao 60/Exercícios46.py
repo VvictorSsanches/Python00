@@ -11,8 +11,9 @@ for a in range(i, f):
 print('Estouros')
 '''
 from time import sleep
-
-for a in range(1,11):
+import emoji
+for a in range(10, -1,-1):
     print(a)
-    sleep(0.1)
+    sleep(1)
+print(emoji.emojize(':fireworks: :sparkler:'))
     
